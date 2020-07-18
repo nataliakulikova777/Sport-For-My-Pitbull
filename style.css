@@ -1,8 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+#heroVideo {
+    margin: -5% 0 -7% 0;
+    position: relative;
+    z-index: -1;
+}
+
+/*---------------------FOOTER*/
 
 footer {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 20px;
     background: #252525;
     color: #fafafa;
     min-height: 120px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #fafafa;
 }
